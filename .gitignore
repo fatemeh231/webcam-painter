@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model file (download separately)
+models/*.task
+
+# User content
+data/uploads/*
+data/output/drawings/*
+data/output/annotated/*
+data/temp/*
+
+# Keep empty folders
+!data/uploads/.gitkeep
+!data/output/drawings/.gitkeep
+!data/output/annotated/.gitkeep
+!data/temp/.gitkeep
+
+# Video / temp files
+*.mp4
+*.mov
+*.avi
+screenshot/
+srf/

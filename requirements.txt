@@ -1,0 +1,6 @@
+customtkinter>=5.2.0
+Pillow>=10.0.0
+PyMuPDF>=1.23.0
+opencv-python>=4.8.0
+mediapipe>=0.10.20
+numpy>=1.24.0
